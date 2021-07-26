@@ -65,10 +65,6 @@ app.get("/posts/:topic",function(req,res){
   });
 });
 
-app.get('post',function(req,res){
-  res.redirect('/posts/:topic');
-});
-
 
 
 
